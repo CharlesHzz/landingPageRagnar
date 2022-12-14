@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Ragnar Lothbrook</title>
+    <script>
+        window.onload = function(){
+            document.querySelector(".menu").addEventListener("click", function(){
+                if(document.querySelector("nav").style.display == 'flex') {
+                    document.querySelector("nav").style.display = 'none';
+                } else {
+                    document.querySelector("nav").style.display = 'flex';
+                }
+            });
+        };
+    </script>
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href=""><img src="assets/images/VIkings-Emblem.png" ></a>
+                </div>
+                <div class="menu">
+                    <img class="menu-opener" src="assets/images/menu.png"/>
+                <nav>
+                    <ul>
+                        <li class="active"><a href="">Inicio</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="">Temporadas</a></li>
+                        <li><a href="">Episodios</a></li>
+                    </ul>
+                </nav>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="fundo">
+        <main class="conteudo">
+            <div class="opacity"></div>
+            <div class="fundo--img"></div>
+        </main>
+    </section>
+
+    <section class="ragnar">
+        <div class="textos">
+            <h2>VIKINGS</h2>
+            <div class="line"></div>
+           <h1>Ragnar   Lothbrook</h1>
+           <p>Herói para uns, vilão para outros, mas corajoso e implacável para todos, Ragnar é lembrado na tradição escandinava como um rei, guerreiro, ousado e sanguinário que marcou a Europa do século IX (especialmente a Grã-Bretanha e a França) com a lâmina de sua espada e por vezes o seu machado.</p>
+           <a href="https://www.netflix.com/br/title/70301870" target="_blank" class="button">Ir para a série</a>
+           <br>
+           <div class="fotos">
+            <img src="assets/images/Aslaug.jpg" class="aslaug"/>
+            <img src="assets/images/king.jpg" class="king"/>
+            <img src="assets/images/ragnar.jpg" class="ragnar-p"/>
+            <img src="assets/images/lord-ragnar.jpg" class="ragnar-l"/>
+           </div>
+        </div>
+        <div class="ragnar--foto">
+            <img src="assets/images/Ragnar-machado.png"/>
+        </div>
+        <br>    
+    </section>
+
+   
+</body>
+</html>
